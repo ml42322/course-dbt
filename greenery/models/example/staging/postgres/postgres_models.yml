@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: orders
+    description: This table contains order level data for greenery
+  - name: addresses
+    description: This table contains user addresses 
+  - name: events
+    description: This table contains website event data
+  - name: order_items
+    description: This table contains item level data for each order
+  - name: products
+    description: This table contains greenery product metadata
+  - name: promos
+    description: This table contains greenery's promotions
+  - name: users
+    description: This table contains greenery customer data
