@@ -1,3 +1,8 @@
+{{
+  config(
+    materialized='table'
+  )
+}}
 with src_orders as (
     select * from {{ source('postgres','orders') }}
 )

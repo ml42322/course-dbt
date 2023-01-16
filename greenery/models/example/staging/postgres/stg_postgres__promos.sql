@@ -1,3 +1,8 @@
+{{
+  config(
+    materialized='table'
+  )
+}}
 with src_promos as (
     select * from {{ source('postgres','promos') }}
 )
