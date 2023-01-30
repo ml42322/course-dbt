@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fact_promo_redemption
+    description: "Fact table for promotion redemptions"
+
+  - name: user_order_facts
+    description: "Fact table for order on the user level"
+    columns:
+      - name: user_guid
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

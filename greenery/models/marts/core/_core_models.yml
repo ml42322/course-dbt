@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: "Fact table for orders"
+    columns:
+      - name: order_guid
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
