@@ -45,3 +45,10 @@ Arrow Head	0.555556
 Angel Wings Begonia	0.393443
 Aloe Vera	0.492308
 Alocasia Polly	0.411765
+
+### Assignment 4 Questions and Answers
+- How are our users moving through the product funnel?
+ADD_TO_CART_DIV_PAGE_VIEW	CHECKOUT_DIV_PAGE_VIEW	CHECKOUT_DIV_ADD_TO_CART
+0.807958	0.624567	0.773019
+- Which steps in the funnel have largest drop off points? add to cart to checkout
+- How would you go about setting up a production/scheduled dbt run of your project in an ideal state? Set up a separate DAG by project/use case (i.e. one for product funnel). The schedule would depend on use case.

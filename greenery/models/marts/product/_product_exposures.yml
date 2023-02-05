@@ -1,0 +1,10 @@
+version: 2
+
+exposures:
+  - name: Product Funnel 
+    type: dashboard
+    description: >
+      Shows how users move through the product funnel 
+    
+    depends_on:
+      - ref('product_funnel')
